@@ -20,20 +20,16 @@ format on `/topic/logs.service_name`:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <event>
-      <time tai64n="@4000000050a17673000001f4" iso8601="2012-11-12T22:21:29Z"/>
+      <time tai64n="@4000000050a50337000001f4"/>
       <meta>
-	<tag>
-	  <![CDATA[log_tag]]>
-	</tag>
-	<hostname>
-	  <![CDATA[zuu.local]]>
-	</hostname>
-	<batch_id>zuu.local-l8s-mdec37-55y3hhr9</batch_id>
+        <tag>log_tag</tag>
+        <hostname>zuu</hostname>
+        <batch_id>hzuu.pmg8.tmdeczt.r9mkii6cb</batch_id>
       </meta>
       <entry>
-	<text>
-	  <![CDATA[The logged line will appear here]]>
-	</text>
+        <text>
+          <![CDATA[The log line will appear here]]>
+        </text>
       </entry>
     </event>
 

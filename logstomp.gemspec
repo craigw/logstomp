@@ -4,8 +4,8 @@ require File.expand_path('../lib/logstomp/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Craig R Webster"]
   gem.email         = ["craig@barkingiguana.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{svlogd processor to send logs to Stomp destination}
+  gem.summary       = gem.description
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

@@ -16,6 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Logstomp::VERSION
 
   gem.add_runtime_dependency 'tai64', '~> 0.0.3'
-  gem.add_runtime_dependency 'builder'
   gem.add_runtime_dependency 'stomp'
 end

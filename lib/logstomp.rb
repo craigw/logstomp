@@ -1,7 +1,6 @@
 require "uri"
 require "tai64"
 require "stomp"
-require "builder"
 require "logstomp/version"
 
 module Logstomp

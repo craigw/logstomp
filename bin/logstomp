@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require 'logstomp'
+
+Logstomp::Command.new(ARGV).execute
